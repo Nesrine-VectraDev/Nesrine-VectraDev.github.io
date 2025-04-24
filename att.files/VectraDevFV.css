@@ -1,0 +1,323 @@
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .hero {
+        padding: 100px 0 30px !important;
+        }    
+    .display-4 {
+        font-size: 2.5rem;
+        }   
+    .hero .name {
+        font-size: 2.5rem;
+        }
+    .navbar-brand {
+        font-size: 1.1rem;
+        text-align: center;
+        }
+    .hero img {
+        width: 250px;
+        height: auto;
+        margin-top: 30px;
+        }
+    #seperate {
+        flex-direction: column;
+        }
+
+    .skill-category {
+        width: 100% !important;
+        height: auto !important;
+        }
+
+    .timeline-item {
+        padding-left: 25px;
+        }
+    }
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 2rem;
+        }
+    
+    .hero .name {
+        font-size: 2rem;
+        }
+
+    #up1, #up2 {
+        margin-top: 0;
+        text-align: center;
+        }
+    .hero .title,
+    .hero .tagline {
+        font-size: 1rem;
+        display: block;
+        text-align: center;
+        }
+    .card {
+        margin-bottom: 20px;
+        }
+
+    .contact-button, .whatsapp-button {
+        display: block;
+        margin: 10px 0;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom CSS */
+    body { font-family: 'Aleo', sans-serif; line-height: 1.6; }
+
+
+
+/* navigation bar*/
+        .bg-pistache {
+            background-color: #dcfe34;
+            }
+        .navbar-brand {
+            font-family: 'Andika', sans-serif; 
+            color: #a608b6;
+            font-weight: 700;
+
+            /*font-size: 1.75rem;
+            padding: 0.5rem 1rem;
+            padding: 0.2rem 0;*/
+
+            letter-spacing: -0.5px;
+            transition: all 0.3s ease;
+            position: relative;
+            
+            /*border-bottom: 2px solid rgba(148, 0, 211, 0.1);*/
+            }
+
+/*--------------------------- change those to be used for mobile devices*/
+        .navbar-brand {
+            font-size: 1.25rem; /* Base size */
+            padding: 0.5rem;
+            white-space: normal; /* Allows text wrapping */
+            }
+/*--------------------------- change those to be used for mobile devices*/
+
+
+
+
+
+
+
+/* hero section */
+        .hero { 
+            background: #f8f9fa; 
+            padding: 120px 0 60px !important;
+            }
+
+    /* Hi I am Nesrine BHIRI*/
+        #up1 {
+            margin-top: -25px;
+            }
+        .display-4 {
+            color: #6d0167; /*purple*/
+            font-size: 3.2rem;
+            }
+        .hero .name {
+            color: #c6fc37; /*pestache*/
+            font-family: 'Andika', sans-serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            /*display: inline;*/
+            margin-top: 0.5rem;  
+            }
+
+    /* Full Stack Developer | | Mobile & Web Solutions*/
+        #up2 {
+            margin-top: -35px;
+            }
+        .hero .title {
+            color: #5c9302; /*green*/
+            font-family: 'Andika', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            position: relative;
+            margin-top: 5px;
+            /*margin-bottom: 0.5rem;*/
+            }
+        .hero .tagline {
+            color: #6d0167; /*purple*/
+            font-family: 'Andika', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            display: inline-block; /*show below other*/
+            /*padding: 0.25rem 1rem;*/
+            /*margin-top: 0.5rem;*/ 
+            }
+        
+    /* Skills */
+        #seperate{
+            display: flex !important;   /* Use flexbox layout - Arranges elements in a flexible manner, 
+                                    either in rows or columns, allowing for complex layouts. - 
+                                    make them on the same line */
+            justify-content: flex-start;  /* Align items to the left */
+            grid-gap: 0.05rem;
+            margin-top: -20px;
+            /*font-size: 1rem;*/
+            } 
+        #frontend{
+            width: 228px;
+            height: 140px;
+            }
+        #backend{
+            /*width: 370px;*/
+            height: 140px;
+            }
+
+        #multimedia{
+            width: 510px;
+            height: 120px;
+            margin-top: -10px;
+            }
+
+        .skill-category {
+            color: #6d0167; /*Frontend and Backend*/
+            background: black; /*#f3e9ff*/
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            }
+        .bg-custom-pistache {
+            background-color: #6d0167; /*purple*/ /*#dcfe34; /*pestache*/
+            }
+        .bg-purple-dark { 
+            background-color: #6d0167; /*purple*/
+            }
+
+    /* image  
+        .hero img {
+            width: 320px; 
+            height: 430px; 
+            object-fit: cover;
+            border: 4px solid #6d0167;
+            }*/
+/*---------------- Replace existing image styles with: to be used for mobile devices*/
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border: 4px solid #6d0167;
+            margin: 0 auto; /* Centers image */
+            }       
+/*---------------- Replace existing image styles with: to be used for mobile devices*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Professional Experience */
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 40px;
+            }
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            background: #6d0167;
+            border-radius: 50%;
+            }
+
+
+
+/* Projects */
+
+
+/*--------------------- In Projects section to be used for mobile device*/
+    .card {
+        min-height: 100%;
+        transition: transform 0.3s ease;
+        }
+    .card:hover {
+        transform: translateY(-5px);
+        }
+/*--------------------- In Projects section to be used for mobile device*/
+
+
+
+/* Contact */
+        #accounts{
+            color: purple;
+            }
+        .contact-button {
+            color: purple;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            }
+        .whatsapp-button {
+            /*background-color: #25D366; /* WhatsApp green */
+            color: purple;
+            /*padding: 8px 15px;*/
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            }
+
+
